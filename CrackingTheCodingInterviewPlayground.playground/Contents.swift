@@ -1,5 +1,6 @@
 //: Playground - noun: a place where people can play
 
+// Strings: Making Anagrams
 import UIKit
 
 func readAndSearchForAnagrams(){
@@ -34,6 +35,7 @@ func charactersToDeleteToBeAnagrams(from firstString:String, with secondString:S
 
 readAndSearchForAnagrams()
 
+// Hash Tables: Ransom Note
 // Test with
 //15 17
 //o l x imjaw bee khmla v o v o imjaw l khmla imjaw x
@@ -41,7 +43,7 @@ readAndSearchForAnagrams()
 // Enter your code here
 func canCreateUntraceableReplica() -> String {
     // Read lines
-    print("Hash Tables Problem")
+    print("***Hash Tables: Ransom Note***")
     func readInput(_ inputString:String) -> [String]{
         //return (readLine()?.componentsSeparatedByString(" "))!
         //return (readLine()?.components(separatedBy: " "))!
